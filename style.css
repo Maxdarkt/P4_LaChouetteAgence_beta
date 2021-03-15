@@ -709,7 +709,7 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
+h3,h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -848,13 +848,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1039,4 +1039,37 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*------------------modif------------------------*/
+
+.font--1{
+    font-size : 1.5em;
+    font-weight:400;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.font--2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.citation__Maxime {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 0;
+    font-size:1.3em;
+    font-style: italic;
+    font-weight:600;
+    width:75%;
+    border:none;
+    margin-bottom:0;
+}
+
+.legende__Maxime {
+    font-size:1em;
 }
