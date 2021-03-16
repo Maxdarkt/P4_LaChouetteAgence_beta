@@ -1068,7 +1068,6 @@ h2 {
 
 .footer{
     display:flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -1081,3 +1080,40 @@ h2 {
 .black{
     color: #000000;
 }
+
+.center{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.center h3{
+    width:55%;
+    margin-left:45%;
+}
+
+.center ul {
+    width: 55%;
+    margin-left: 45%;
+}
+
+@media (max-width: 767px) {
+    .center h3 {
+        width: 50%;
+        margin-left: 40%;
+    }
+
+    .center ul {
+        width: 50%;
+        margin-left: 40%;
+    }
+}
+
+
+.hover:hover{
+    font-weight :600;
+}
+
+
